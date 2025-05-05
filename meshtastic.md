@@ -1,4 +1,4 @@
-# meshtastic radio-based mesh messaging
+# meshtastic radio-based mesh text messaging
 
 In case mobile and fixed internet drop away, there is no way to reach relatives or friends to check in on them.
 
