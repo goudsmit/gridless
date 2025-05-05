@@ -1,28 +1,25 @@
-layout: page
-title: "gridless - meshtastic radio-based mesh messaging"
-permalink: /meshtastic
-
 # meshtastic radio-based mesh messaging
 
 In case mobile and fixed internet drop away, there is no way to reach relatives or friends to check in on them.
 
-Meshtastic is an open source project, with open source hardware, to setup a mesh network of small radio-based devices,
-that require little power, and can send text-messages between them. The system supported end to end encryption, private
-messages, group chats via 'channels', and can easily stay charged with a small solar panel.
+[Meshtastic](https://meshtastic.org/) is an open source project, with open source hardware, to setup a mesh network
+of small radio-based devices, that require little power, and can send text-messages between them. The system
+supported end to end encryption, private messages, group chats via 'channels', and can easily stay charged with
+a small solar panel.
 
 ## items i've used
 
-- Heltec v3, revision 3.2 (comes with small antenna)
-- 103450 3.3V LiPo battery with micro JST 1.25mm 2-pin connector
-- self-printed H1 extra wide case
-- optional larger antenna for more range
-- optional solar panel with USB-C 5V output
+- [Heltec v3, revision 3.2](https://www.tinytronics.nl/en/development-boards/microcontroller-boards/with-lora/heltec-wifi-lora-32-esp32-s3-sx1262-with-0.96-inch-oled-display) (comes with small antenna)
+- [103450 3.3V LiPo battery with micro JST 1.25mm 2-pin connector](https://www.amazon.de/dp/B08TQSC5G9)
+- self-printed [H1 extra wide case](https://makerworld.com/en/models/591051-h1-big-case-for-heltec-v3-running-meshtastic)
+- [optional larger adjustable antenna for more range](https://www.amazon.de/dp/B0DY1LDBQ8)
+- [optional solar panel with USB-C 5V output](https://www.amazon.de/dp/B0CLDVS4D7)
 
 ## steps for operation
 
 - attach antenna (apparently sending messages without antenna can damage the unit)
 - attach to computer via USB-C
-- go to the meshtastic flash page and flash the firmware onto it
+- go to the [meshtastic flash page](https://flasher.meshtastic.org/) and flash the firmware onto it
 - install and open the meshtastic app on your phone
 - go to the bluetooth tab, and connect & pair to your node
 - select EU 868 as operating frequency band
